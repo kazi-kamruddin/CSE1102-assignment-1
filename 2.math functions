@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float x;
+    printf ("enter a value for x: "); 
+    scanf ("%f", &x);
+    
+    printf ("\n\n\nsquare root of x: %f", sqrt(x));
+    printf ("\ncubic root of x: %f", cbrt(x));
+    printf ("\nx to power 2: %f", pow(x,2));
+    printf ("\nln of x: %f", log(x));
+    printf ("\nlog base 10 of x: %f", log10(x));
+    printf ("\ntangent of x(degree): %f", tan(x));
+
+    return 0;
+}    
