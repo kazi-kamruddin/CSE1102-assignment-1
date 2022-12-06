@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    double rec_l, rec_h, cir_r,rec_area, rec_per, cir_area, cir_circ;
+    const double pi = 3.1416;
+    printf ("enter rectangle's length: ");
+    scanf ("%lf", &rec_l);
+    printf ("\nenter rectangle's height: ");
+    scanf ("%lf", &rec_h);
+    printf ("\nenter circle's radius: ");
+    scanf ("%lf", &cir_r);
+    
+    rec_area = (rec_l * rec_h);
+    rec_per = 2*(rec_l + rec_h);
+    cir_area = (pi*cir_r*cir_r);
+    cir_circ = (2*pi*cir_r);
+    
+    printf ("\n\nrectangle's perimeter is = %lf unit", rec_per);
+    printf ("\nrectangle's area is = %lf square unit", rec_area);
+    printf ("\ncircle's circumference is = %lf unit", cir_circ);
+    printf ("\ncircle's area is = %lf square unit", cir_area);
+    return 0;
+}
