@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int main () {
+
+    int x,sum=0;
+    printf ("Enter a number (5 digits): ");
+    scanf ("%d", &x);
+
+    sum = x%10;
+    x = x/10;
+    sum += x%10;
+    x = x/10;
+    sum += x%10;
+    x = x/10;
+    sum += x%10;
+    x = x/10;
+    sum += x%10;
+
+    printf ("\nSum of digits: %d\n", sum);
+    return 0;
+}
+
+/*#include <stdio.h>
+
+int main () {
+
+    int x,y,sum=0;
+    printf ("Enter a number (5 digits): ");
+    scanf ("%d", &x);
+
+    y=x;
+
+    for(;y != 0;)
+    {
+        sum = sum + y%10;
+        y = y/10;
+    }
+
+    printf ("\nSum of digits: %d\n", sum);
+    return 0;
+}*/
