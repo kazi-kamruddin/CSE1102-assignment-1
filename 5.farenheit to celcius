@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main () {
+
+    float far,cel;
+    printf ("Enter a temperature(farenheit): ");
+    scanf ("%f", &far);
+
+    cel = (far - 32)*5/9;
+
+    printf ("Converted to celcius: %.2f ", cel);
+    return 0;
+}
