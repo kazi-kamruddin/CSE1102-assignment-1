@@ -11,7 +11,7 @@ int main () {
     tech_al = 1000;
     gross = basic+house_al+med_al+tech_al;
 
-    printf ("\n00Rahim's gross salary is: %f\n", gross);
+    printf ("\nRahim's gross salary is: %f\n", gross);
 
     return 0;
 }
