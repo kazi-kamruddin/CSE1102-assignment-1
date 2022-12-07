@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main () {
+
+    float dis_km;
+    printf ("Distance between AUST and Rajshahi campus(in km): ");
+    scanf ("%f", &dis_km);
+
+    printf ("\n\nthis distance in meters: %f m", dis_km*1000);
+    printf ("\nthis distance in feet: %f ft", dis_km*1000*3.28);      //1m = 3.28ft
+    printf ("\nthis distance in inches: %f inch", dis_km*1000*39.37);  //1m = 39.37 inch
+    printf ("\nthis distance in centimeters: %f cm", dis_km*1000*100);
+
+
+
+    return 0;
+}
