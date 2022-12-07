@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main () {
+
+    float basic, house_al, med_al, tech_al, gross;
+    printf ("Enter Rahim's basic salary: ");
+    scanf ("%f", &basic);
+
+    house_al = (basic/100)*30;
+    med_al = (basic/100)*5;
+    tech_al = 1000;
+    gross = basic+house_al+med_al+tech_al;
+
+    printf ("\n00Rahim's gross salary is: %f\n", gross);
+
+    return 0;
+}
